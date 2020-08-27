@@ -1,4 +1,10 @@
-header {
-    background: #5EC2BD;
-    font-color: #f4f4f4;
+.cabecalho-background {
+    background-color: aquamarine;
+    position: absolute;
+    width: 100%;
+
+}
+
+.cabecalho {
+    display: flex;
 }
