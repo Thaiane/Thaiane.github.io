@@ -8,3 +8,11 @@
 .cabecalho {
     display: flex;
 }
+
+.cabecalho-background {
+    font-size: 2em;
+}
+
+.navegation {
+    display: flex;
+}
