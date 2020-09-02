@@ -1,14 +1,15 @@
-.content {
-    position: relative;
+.content-cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.container {
+.container-cat {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
 #bongo-cat {
-    position: absolute;
     height: 80vh;
     width: 80vw;
     top: 100vh;
