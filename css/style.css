@@ -1,29 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: #2e4057;
     margin:0;
-    min-height: 100vh;
 }
 
-.cabecalho-background {
-    background-color: aquamarine;
-    position: absolute;
-    width: 100%;
+.patterns {
+    height: 100vh;
+}
+
+
+
+svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #ffa5d8;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 3;
+
+    animation: textAnimate 5s infinite alternate;
 
 }
 
-.cabecalho {
-    display: flex;
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset:  20%;
+        fill:hsl(189, 68%, 75%)
+
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: hsla(189, 68%, 75%,0%)
+    }
+
 }
 
-.cabecalho-background {
-    font-size: 2em;
-}
 
-.navegation {
-    display: flex;
-}
