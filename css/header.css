@@ -10,6 +10,12 @@ a {
     text-decoration:none;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .con {
     margin:0 auto;
 }
@@ -1025,8 +1031,8 @@ a {
 
 .cat {
     position: relative;
-    height: 170px;
-    width: 192.1px;
+    height: 90px;
+    width: 102.1px;
 }
 .ear {
     position: absolute;
@@ -1042,7 +1048,7 @@ a {
     height: 10%;
     width: 5%;
     border-radius: 50%;
-    background: red;
+    background: darkslateblue;
 }
 .ear::after {
     transform-origin: 50% 100%;
@@ -1073,7 +1079,7 @@ a {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: red;
+    background: darkslateblue;
     border-radius: 50%;
 }
 .eye {
@@ -1092,7 +1098,7 @@ a {
     height: 0;
     width: 100%;
     border-radius: 0 0 50% 50Array/0Array 0 40% 40%;
-    background: red;
+    background: darkslateblue;
     animation: blink 4s infinite ease-in;
 }
 @keyframes blink {
@@ -1141,7 +1147,7 @@ a {
     top: 25%;
     height: 50%;
     width: 20%;
-    background: red;
+    background: darkslateblue;
     border-radius: 50%;
     animation: look-around 4s infinite;
 }
