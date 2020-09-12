@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F7F9FF;
+}
+
+.header {
+  background-image: linear-gradient(to left bottom, #404865, #464c68, #4d506b, #53556f, #595972, #646079, #6f6780, #7a6e87, #8e7a93, #a3869e, #b792a8, #cc9fb1);;
+}
+
+.home {
+  background-color: #1D2731;
+}
 .container{
   max-width: 1140px;
   margin: 0 auto;
@@ -114,22 +125,25 @@ button{
   text-align: center;
 }
 
-.hero-box .left-side h2{
-  text-transform: uppercase;
-  font-family: 'Oswald',sans-serif;
-  font-size: 30px;
-  line-height: 2;
-}
 
-.hero-box .left-side h4{
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: 'Oswald',sans-serif;
-  line-height: 2;
-}
-.hero-box .left-side p{
-  text-align: center;
-}
+
+/*.hero-box .left-side h2{*/
+/*  text-transform: uppercase;*/
+/*  font-family: 'Oswald',sans-serif;*/
+/*  color: white;*/
+/*  font-size: 30px;*/
+/*  line-height: 2;*/
+/*}*/
+
+/*.hero-box .left-side h4{*/
+/*  font-size: 20px;*/
+/*  text-transform: uppercase;*/
+/*  font-family: 'Oswald',sans-serif;*/
+/*  line-height: 2;*/
+/*}*/
+/*.hero-box .left-side p{*/
+/*  text-align: center;*/
+/*}*/
 
 .hero-box .btn-11 {
   border: none;
@@ -183,7 +197,7 @@ button{
 .hero-box .right-side .image-box{
   width: 350px;
   height: 350px;
-  border: 5px solid #96e4df;
+  border: 5px solid #ECB8D0;
   margin: auto;
   border-bottom-right-radius: 20px;
   position: relative;
@@ -205,7 +219,7 @@ button{
 }
 
 .hero-box .right-side .image-box .profile-image{
-  background-image: url("https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("https://avatars3.githubusercontent.com/u/5108244?s=460&u=2cefca43cc417f7c25a4c3e0b92cc265cc5bbe4a&v=4");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
