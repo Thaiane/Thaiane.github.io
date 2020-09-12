@@ -14,8 +14,12 @@ body {
   background-image: linear-gradient(to left bottom, #404865, #464c68, #4d506b, #53556f, #595972, #646079, #6f6780, #7a6e87, #8e7a93, #a3869e, #b792a8, #cc9fb1);;
 }
 
+p {
+  font-size: 40px;
+}
+
 .home {
-  background-color: #1D2731;
+  background-color: #F7F9FF;
 }
 .container{
   max-width: 1140px;
