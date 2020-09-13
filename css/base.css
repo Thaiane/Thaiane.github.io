@@ -338,6 +338,15 @@ body {
 #about {
   display: flex;
   min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentCat {
+  max-width: 80%;
+  margin: auto;
+  margin-left: 10%
+
 }
 
 #about .wrapper {
