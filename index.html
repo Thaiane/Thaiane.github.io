@@ -26,22 +26,24 @@
       <span class="line"></span>
     </button>
   </div>
-  <nav class="header__nav">
-    <ul class="nav">
-      <li class="header__nav__item"><a href="#about" data-ref="about">Olar</a></li>
-      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Tecnologias</a></li>
-      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Portfólio</a></li>
-      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Comunidades</a></li>
-      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Experiências</a></li>
-      <li class="header__nav__item"><a href="#contact" data-ref="contact">Contato</a></li>
+  <div class="header-grid">
+    <nav class="header__nav">
+      <ul class="nav">
+        <li class="header__nav__item"><a href="#about" data-ref="about">Olar</a></li>
+        <li class="header__nav__item"><a href="#tecnologia" data-ref="portfolio">Tecnologias</a></li>
+        <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Portfólio</a></li>
+        <li class="header__nav__item"><a href="#comunidade" data-ref="portfolio">Comunidades</a></li>
+        <li class="header__nav__item"><a href="#experiencia" data-ref="portfolio">Experiências</a></li>
+        <li class="header__nav__item"><a href="#contact" data-ref="contact">Contato</a></li>
+      </ul>
+    </nav>
+    <ul class="header__social-btns">
+      <li> <a class="fa fa-twitter" href="https://twitter.com/ThaiiBraga"></a> </li>
+      <li> <a class="fa fa-github" href="https://github.com/Thaiane" target="_blank" ></a> </li>
+      <li> <a class="fa fa-linkedin" href="https://www.linkedin.com/in/thaianebraga/" target="_blank"></a> </li>
+      <li> <a class="fa fa-language" href="#" target="_blank"></a> </li>
     </ul>
-  </nav>
-  <ul class="header__social-btns">
-    <li> <a class="fa fa-twitter" href="https://twitter.com/ThaiiBraga"></a> </li>
-    <li> <a class="fa fa-github" href="https://github.com/Thaiane" target="_blank" ></a> </li>
-    <li> <a class="fa fa-linkedin" href="https://www.linkedin.com/in/thaianebraga/" target="_blank"></a> </li>
-    <li> <a class="fa fa-language" href="#" target="_blank"></a> </li>
-  </ul>
+  </div>
 </header>
 
 <main>
@@ -59,7 +61,307 @@
 
   </section>
 
+  <section id="tecnologia" class="container main-section">
+    <div class="filters row js-dis">
+      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+      <ul class="filters__list">
+        <li class="filters__label is-active"> all </li>
+        <li class="filters__label" data-cat="fcc"> free code camp </li>
+        <li class="filters__label" data-cat="personal"> personal projects </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__project-wrapper row">
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+          <div class="portfolio__project__preview">
+            <img src="img/quotes.svg" alt="random quotes">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Random Quotes</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/calc.svg" alt="javascript calculator">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/txt.svg" alt="text editor">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Text Editor</h3>
+              <p class="portfolio__project__category">#personal project</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
+          <div class="portfolio__project__preview">
+            <img src="img/bacteriophage.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Bacteriophage</h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/desktop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Desktop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/laptop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Laptop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
   <section id="portfolio" class="container main-section">
+    <div class="filters row js-dis">
+      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+      <ul class="filters__list">
+        <li class="filters__label is-active"> all </li>
+        <li class="filters__label" data-cat="fcc"> free code camp </li>
+        <li class="filters__label" data-cat="personal"> personal projects </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__project-wrapper row">
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+          <div class="portfolio__project__preview">
+            <img src="img/quotes.svg" alt="random quotes">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Random Quotes</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/calc.svg" alt="javascript calculator">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/txt.svg" alt="text editor">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Text Editor</h3>
+              <p class="portfolio__project__category">#personal project</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
+          <div class="portfolio__project__preview">
+            <img src="img/bacteriophage.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Bacteriophage</h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/desktop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Desktop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/laptop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Laptop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="comunidade" class="container main-section">
+    <div class="filters row js-dis">
+      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+      <ul class="filters__list">
+        <li class="filters__label is-active"> all </li>
+        <li class="filters__label" data-cat="fcc"> free code camp </li>
+        <li class="filters__label" data-cat="personal"> personal projects </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__project-wrapper row">
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+          <div class="portfolio__project__preview">
+            <img src="img/quotes.svg" alt="random quotes">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Random Quotes</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/calc.svg" alt="javascript calculator">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/txt.svg" alt="text editor">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Text Editor</h3>
+              <p class="portfolio__project__category">#personal project</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
+          <div class="portfolio__project__preview">
+            <img src="img/bacteriophage.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Bacteriophage</h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/desktop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Desktop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/laptop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Laptop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="experiencia" class="container main-section">
     <div class="filters row js-dis">
       <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
       <ul class="filters__list">

@@ -73,7 +73,7 @@ a.global-button,
 .global-button,
 .heading,
 .header__nav {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -144,6 +144,11 @@ body {
 }
 
 /* Nav */
+.header-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
 
 .header__nav,
 .header__social-btns {
@@ -304,6 +309,7 @@ body {
 
 .header__social-btns {
   text-align: right;
+  font-size: 1.25em;
 }
 
 .header__social-btns > li {
@@ -320,7 +326,10 @@ body {
 
 #about,
 #portfolio,
-#contact {
+#contact,
+#tecnologia,
+#comunidade,
+#experiencia {
   padding-top: 8.5em;
 }
 
