@@ -73,14 +73,14 @@ a.global-button,
 .global-button,
 .heading,
 .header__nav {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: 'Raleway', sans-serif;
 }
 
 a.global-button,
 .global-button,
 .heading {
-  text-transform: uppercase;
+  text-transform: capitalize;
   /*color: #494E6B;*/
   /*color: #51e6a6;*/
   /*color: #3995B9;*/
@@ -166,6 +166,7 @@ body {
 
 .header__nav {
   line-height: .9em;
+  letter-spacing: 0.05rem;
 }
 
 .header__nav__item > a {
@@ -380,10 +381,20 @@ body {
 }
 
 .about__intro {
-  border-left: 2px solid;
+  border-left: 2px solid #988AB5;
   padding-left: 2.2em;
   margin-bottom: 1em;
-  max-width: 25em;
+  max-width: 30em;
+  font-size: 1.1rem;
+}
+
+.about__intro span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: #988AB5;
+  font-family: 'Raleway', sans-serif;
+  /*text-transform: uppercase;*/
 }
 
 #about:hover .global-button.rotated::before {
