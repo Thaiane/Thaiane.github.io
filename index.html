@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" >
-  <title>Ivana's Portfolio</title>
+  <title>Thai Braga</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,700" rel="stylesheet" type="text/css">
@@ -23,16 +24,16 @@
   </div>
   <nav class="header__nav">
     <ul class="nav">
-      <li class="header__nav__item"><a href="#about" data-ref="about">about</a></li>
-      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">work</a></li>
-      <li class="header__nav__item"><a href="#contact" data-ref="contact">contact</a></li>
+      <li class="header__nav__item"><a href="#about" data-ref="about">Olar</a></li>
+      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Portfólio</a></li>
+      <li class="header__nav__item"><a href="#contact" data-ref="contact">Contato</a></li>
     </ul>
   </nav>
   <ul class="header__social-btns">
-    <li> <a class="fa fa-facebook" href="#"></a> </li>
-    <li> <a class="fa fa-github" href="https://github.com/eevu" target="_blank" ></a> </li>
-    <li> <a class="fa fa-codepen" href="http://codepen.io/eevu" target="_blank"></a> </li>
-    <li> <a class="fa fa-fire" href="http://www.freecodecamp.com/eevu" target="_blank"></a> </li>
+    <li> <a class="fa fa-twitter" href="https://twitter.com/ThaiiBraga"></a> </li>
+    <li> <a class="fa fa-github" href="https://github.com/Thaiane" target="_blank" ></a> </li>
+    <li> <a class="fa fa-linkedin" href="https://www.linkedin.com/in/thaianebraga/" target="_blank"></a> </li>
+    <li> <a class="fa fa-language" href="#" target="_blank"></a> </li>
   </ul>
 </header>
 
@@ -41,13 +42,10 @@
   <section id="about" class="main-section">
     <div class="wrapper">
       <p class="about__intro">
-        Hi, I'm Ivana, an aspiring web developer interested in UX/UI design. <br>
-        I'm majoring in Physics by day and teaching myself web development and design by night. <br>
-        I was born and raised many worlds away from the Silicon Valley, on a pebble called Sardinia,
-        floating amid the Mediterranean Sea. <br>
-        I love almost anything under the sun, apart from spiders and coconuts.
+        Hi, I'm Thai Braga. First of Her Name on Github, The one who doesn't like coffee,
+        Defender more diversity in IT, Khaleesi of Bugs, Breaker of Code and Mother of Cats.
       </p>
-      <a href="#portfolio" class="global-button rotated scroll"> see my work </a>
+      <a href="#portfolio" class="global-button rotated scroll"> Saiba mais :) </a>
     </div>
   </section>
 
@@ -151,9 +149,6 @@
 
   </section>
 
-</main>
-
-<footer class="container">
   <section id="contact" class="row main-section">
     <div class="col-xs-12 col-md-5 contact-form-wrapper">
       <h2 class="heading"> drop me a line </h2>
@@ -178,166 +173,22 @@
     <div id="map" class="col-xs-12 col-md-7"></div>
   </section>
 
+</main>
+
+<footer class="container">
+
+
   <section id="credit" class="row">
     <p>
-      Built for <a href="http://www.freecodecamp.com" target="_blank" class="credit-link">Free Code Camp</a> by <a href="http://codepen.io/eevu" target="_blank" class="credit-link">Ivana Cossu</a> &copy;2016
+      Construído com <3 por Thai Braga
     </p>
     <p>
-      Map styled with <a href="https://snazzymaps.com" target="_blank" class="credit-link">Snazzy Maps</a>
+      Todos os direitos reservados
     </p>
   </section>
 </footer>
 
 <script src="js/index.js"></script>
-<!-- Add Google Maps -->
-<script>
-  function initMap() {
-    var customMapType = new google.maps.StyledMapType([
-      {
-        "featureType": "all",
-        "elementType": "labels.text",
-        "stylers": [
-          {
-            "color": "#6c6753"
-          }
-        ]
-      },
-      {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-          {
-            "color": "#ffffff"
-          }
-        ]
-      },
-      {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
-        "stylers": [
-          {
-            "color": "#444444"
-          }
-        ]
-      },
-      {
-        "featureType": "landscape",
-        "elementType": "geometry.fill",
-        "stylers": [
-          {
-            "color": "#ffffff"
-          },
-          {
-            "lightness": "0"
-          },
-          {
-            "gamma": "1.00"
-          }
-        ]
-      },
-      {
-        "featureType": "poi",
-        "elementType": "all",
-        "stylers": [
-          {
-            "visibility": "off"
-          }
-        ]
-      },
-      {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-          {
-            "color": "#51e6a6"
-          }
-        ]
-      },
-      {
-        "featureType": "road",
-        "elementType": "labels.text",
-        "stylers": [
-          {
-            "color": "#6c6753"
-          },
-          {
-            "visibility": "simplified"
-          }
-        ]
-      },
-      {
-        "featureType": "road",
-        "elementType": "labels.icon",
-        "stylers": [
-          {
-            "saturation": "-100"
-          },
-          {
-            "lightness": "11"
-          }
-        ]
-      },
-      {
-        "featureType": "transit",
-        "elementType": "all",
-        "stylers": [
-          {
-            "visibility": "off"
-          }
-        ]
-      },
-      {
-        "featureType": "water",
-        "elementType": "all",
-        "stylers": [
-          {
-            "visibility": "on"
-          }
-        ]
-      },
-      {
-        "featureType": "water",
-        "elementType": "geometry",
-        "stylers": [
-          {
-            "color": "#51ffa6"
-          },
-          {
-            "lightness": "27"
-          },
-          {
-            "saturation": "-14"
-          }
-        ]
-      }
-    ], {
-      name: 'Styled'
-    });
-    var customMapTypeId = 'custom_style';
-
-    var latLng = {lat:39.2257618, lng: 9.122245};
-
-    var map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 13,
-      center: latLng,
-      mapTypeControlOptions: {
-        mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
-      }
-    });
-
-    var marker = new google.maps.Marker({
-      position: latLng,
-      map: map,
-      title: "I'm here!"
-    });
-
-    map.mapTypes.set(customMapTypeId, customMapType);
-    map.setMapTypeId(customMapTypeId);
-
-  }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
-
 </body>
 
 </html>
