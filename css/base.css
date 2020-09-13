@@ -81,7 +81,11 @@ a.global-button,
 .global-button,
 .heading {
   text-transform: uppercase;
-  color: #51e6a6;
+  /*color: #494E6B;*/
+  /*color: #51e6a6;*/
+  /*color: #3995B9;*/
+  color: #988AB5;
+
 }
 
 .heading {
@@ -91,7 +95,9 @@ a.global-button,
 
 .header__social-btns > li > a:hover,
 .filters__label:hover {
-  color: #51e6a6;
+  /*color: #51e6a6;*/
+  /*color: #3995B9;*/
+  color: #988AB5;
 }
 
 .header__social-btns > li > a,
@@ -107,7 +113,7 @@ a.global-button,
   display: inline-block;
   position: relative;
   top: .2em; bottom: 0;
-  background: url('../img/arrow.svg') no-repeat;
+  background: url('../img/arrow-direito.png') no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -181,7 +187,8 @@ body {
 }
 
 .header__nav__item > a:hover {
-  color: #51e6a6;
+  /*color: #51e6a6;*/
+  color: #988AB5;
 }
 
 .header__nav__item > a::before {
@@ -577,7 +584,8 @@ footer {
 }
 .contact-form-el > .input:focus + label,
 .contact-form-el > .input:focus:valid + label {
-  color: #51e6a6;
+  /*color: #51e6a6;*/
+  color: #988AB5;
 }
 .contact-form-el > .input:valid + label {
   color: #dcd5b2;
@@ -631,5 +639,6 @@ footer > #credit {
 }
 
 .credit-link:hover {
-  color: #51e6a6;
+  /*color: #51e6a6;*/
+  color: #988AB5;
 }
