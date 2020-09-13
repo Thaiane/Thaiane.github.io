@@ -1,57 +1,343 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Espaço da Thai Braga</title>
-  <link rel="icon" href="img/favicon.png" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/base.css">
-<!--  <link rel="stylesheet" href="css/styleCat.css">-->
-<!--  <link rel="stylesheet" href="css/footer.css">-->
-<!--  <link rel="stylesheet" href="css/header.css">-->
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" >
+  <title>Ivana's Portfolio</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
-<body>
-<header class="header">
-  <div class="nav">
-    <div class="nav-menu">
-      <button class="custom-btn btn-5"><span>Work</span></button>
-      <button class="custom-btn btn-5"><span>Resume</span></button>
-    </div>
-  </div>
-</header>
-<main>
-  <section class="home">
-      <div class="layer">
-        <div class="container">
-          <div class="hero-box">
-            <div class="left-side">
-              <div id="home" class="container-fluid fill dark-gray-background">
-                  <p>Olá, eu sou a <strong class="middle-blue-font">Thai Braga</strong></p>
-                  <p>e eu sou <span class="element"></span></p>
-                  <p>vivo em <strong class="middle-blue-font">Brasil</strong>.</p>
-              </div>
-<!--              <p>Thai Braga</p>-->
-<!--              <h2>Engenheira de Software</h2>-->
-<!--              <h4>Front-end Developer</h4>-->
-<!--              <p style="margin-bottom: 30px;">-->
-<!--                Mãe de gatos-->
-<!--              </p>-->
-            </div>
 
-            <div class="right-side">
-              <div class="image-box">
-                <div class="profile-image">
-                </div>
-              </div>
+<body>
+
+<header class="header container-fluid">
+  <div class="nav-toggle-wrapper">
+    <button class="nav-toggle-btn">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+  </div>
+  <nav class="header__nav">
+    <ul class="nav">
+      <li class="header__nav__item"><a href="#about" data-ref="about">about</a></li>
+      <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">work</a></li>
+      <li class="header__nav__item"><a href="#contact" data-ref="contact">contact</a></li>
+    </ul>
+  </nav>
+  <ul class="header__social-btns">
+    <li> <a class="fa fa-facebook" href="#"></a> </li>
+    <li> <a class="fa fa-github" href="https://github.com/eevu" target="_blank" ></a> </li>
+    <li> <a class="fa fa-codepen" href="http://codepen.io/eevu" target="_blank"></a> </li>
+    <li> <a class="fa fa-fire" href="http://www.freecodecamp.com/eevu" target="_blank"></a> </li>
+  </ul>
+</header>
+
+<main>
+
+  <section id="about" class="main-section">
+    <div class="wrapper">
+      <p class="about__intro">
+        Hi, I'm Ivana, an aspiring web developer interested in UX/UI design. <br>
+        I'm majoring in Physics by day and teaching myself web development and design by night. <br>
+        I was born and raised many worlds away from the Silicon Valley, on a pebble called Sardinia,
+        floating amid the Mediterranean Sea. <br>
+        I love almost anything under the sun, apart from spiders and coconuts.
+      </p>
+      <a href="#portfolio" class="global-button rotated scroll"> see my work </a>
+    </div>
+  </section>
+
+  <section id="portfolio" class="container main-section">
+    <div class="filters row js-dis">
+      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+      <ul class="filters__list">
+        <li class="filters__label is-active"> all </li>
+        <li class="filters__label" data-cat="fcc"> free code camp </li>
+        <li class="filters__label" data-cat="personal"> personal projects </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__project-wrapper row">
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
+          <div class="portfolio__project__preview">
+            <img src="img/quotes.svg" alt="random quotes">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Random Quotes</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
             </div>
           </div>
-        </div>
+        </a>
       </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/calc.svg" alt="javascript calculator">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
+              <p class="portfolio__project__category"> #free code camp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/txt.svg" alt="text editor">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name">Text Editor</h3>
+              <p class="portfolio__project__category">#personal project</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
+          <div class="portfolio__project__preview">
+            <img src="img/bacteriophage.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Bacteriophage</h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/desktop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Desktop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+        <a href="#" target="_blank" title="coming soon">
+          <div class="portfolio__project__preview">
+            <img src="img/laptop.svg" alt="random placeholder">
+          </div>
+          <div class="portfolio__project__description">
+            <div class="info-wrapper">
+              <h3 class="portfolio__project__name"> Laptop </h3>
+              <p class="portfolio__project__category">#placeholder</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
   </section>
 
 </main>
-<footer>
 
+<footer class="container">
+  <section id="contact" class="row main-section">
+    <div class="col-xs-12 col-md-5 contact-form-wrapper">
+      <h2 class="heading"> drop me a line </h2>
+      <form class="contact-form">
+        <div class="contact-form-el">
+          <input type="text" id="name" class="input" required></input>
+          <label for="name"> your name </label>
+        </div>
+        <div class="contact-form-el">
+          <input type="email" id="email" class="input" required></input>
+          <label for="email"> your e-mail </label>
+        </div>
+        <div class="contact-form-el">
+          <textarea rows="7" id="message" class="input" required></textarea>
+          <label for="message"> your message </label>
+        </div>
+        <div class="text-right">
+          <button type="submit" class="global-button"> send </button>
+        </div>
+      </form>
+    </div>
+    <div id="map" class="col-xs-12 col-md-7"></div>
+  </section>
+
+  <section id="credit" class="row">
+    <p>
+      Built for <a href="http://www.freecodecamp.com" target="_blank" class="credit-link">Free Code Camp</a> by <a href="http://codepen.io/eevu" target="_blank" class="credit-link">Ivana Cossu</a> &copy;2016
+    </p>
+    <p>
+      Map styled with <a href="https://snazzymaps.com" target="_blank" class="credit-link">Snazzy Maps</a>
+    </p>
+  </section>
 </footer>
+
 <script src="js/index.js"></script>
+<!-- Add Google Maps -->
+<script>
+  function initMap() {
+    var customMapType = new google.maps.StyledMapType([
+      {
+        "featureType": "all",
+        "elementType": "labels.text",
+        "stylers": [
+          {
+            "color": "#6c6753"
+          }
+        ]
+      },
+      {
+        "featureType": "all",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+          {
+            "color": "#444444"
+          }
+        ]
+      },
+      {
+        "featureType": "landscape",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          },
+          {
+            "lightness": "0"
+          },
+          {
+            "gamma": "1.00"
+          }
+        ]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      },
+      {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#51e6a6"
+          }
+        ]
+      },
+      {
+        "featureType": "road",
+        "elementType": "labels.text",
+        "stylers": [
+          {
+            "color": "#6c6753"
+          },
+          {
+            "visibility": "simplified"
+          }
+        ]
+      },
+      {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [
+          {
+            "saturation": "-100"
+          },
+          {
+            "lightness": "11"
+          }
+        ]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      },
+      {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "on"
+          }
+        ]
+      },
+      {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+          {
+            "color": "#51ffa6"
+          },
+          {
+            "lightness": "27"
+          },
+          {
+            "saturation": "-14"
+          }
+        ]
+      }
+    ], {
+      name: 'Styled'
+    });
+    var customMapTypeId = 'custom_style';
+
+    var latLng = {lat:39.2257618, lng: 9.122245};
+
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 13,
+      center: latLng,
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
+      }
+    });
+
+    var marker = new google.maps.Marker({
+      position: latLng,
+      map: map,
+      title: "I'm here!"
+    });
+
+    map.mapTypes.set(customMapTypeId, customMapType);
+    map.setMapTypeId(customMapTypeId);
+
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+
 </body>
+
+</html>
