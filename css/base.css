@@ -206,15 +206,27 @@ body {
 }
 
 .header__nav__item > a[data-ref='about']::before {
-  content:url('../img/about_icon.svg');
+  content:url('../img/icons8-curly-brackets-32.png');
+}
+
+.header__nav__item > a[data-ref='tecnologia']::before {
+  content:url('../img/icons8-laptop-64.png');
 }
 
 .header__nav__item > a[data-ref='portfolio']::before {
-  content:url('../img/portfolio_icon.svg');
+  content:url('../img/computer.png');
+}
+
+.header__nav__item > a[data-ref='experiencia']::before {
+  content:url('../img/icons8-magazine-32.png');
+}
+
+.header__nav__item > a[data-ref='comunidade']::before {
+  content:url('../img/global.png');
 }
 
 .header__nav__item > a[data-ref='contact']::before {
-  content:url('../img/contact_icon.svg');
+  content:url('../img/icons8-speech-bubble-32.png');
 }
 
 .header__nav__item > a:hover::before,
