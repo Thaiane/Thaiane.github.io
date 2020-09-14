@@ -488,7 +488,8 @@ body {
   position: relative;
   height: auto;
   padding: 0;
-  background-color: #f7fbde;
+  background-color: #FCF8FF;
+  /*background-color: #f7fbde;*/
   background-clip: padding-box;
   border: 10px solid transparent;
   overflow: hidden;

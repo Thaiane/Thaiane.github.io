@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/styleCat.css">
+  <link rel="stylesheet" type="text/css" href="css/skills.css">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
     <nav class="header__nav">
       <ul class="nav">
         <li class="header__nav__item"><a href="#about" data-ref="about">Olar</a></li>
-        <li class="header__nav__item"><a href="#tecnologia" data-ref="tecnologia">Tecnologias</a></li>
+        <li class="header__nav__item"><a href="#skills" data-ref="tecnologia">Tecnologias</a></li>
         <li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">Portfólio</a></li>
         <li class="header__nav__item"><a href="#comunidade" data-ref="comunidade">Comunidades</a></li>
         <li class="header__nav__item"><a href="#experiencia" data-ref="experiencia">Experiências</a></li>
@@ -69,105 +70,59 @@
 
   </section>
 
-  <section id="tecnologia" class="container main-section">
-    <div class="filters row js-dis">
-      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
-      <ul class="filters__list">
-        <li class="filters__label is-active"> all </li>
-        <li class="filters__label" data-cat="fcc"> free code camp </li>
-        <li class="filters__label" data-cat="personal"> personal projects </li>
-      </ul>
-    </div>
-
-    <div class="portfolio__project-wrapper row">
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
-        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
-          <div class="portfolio__project__preview">
-            <img src="img/quotes.svg" alt="random quotes">
+  <section id="skills" class="container main-section">
+      <div class="containerSkills">
+<!--        <h1>Services</h1>-->
+        <div class="block"></div>
+        <div class="row">
+          <div class="one-third column">
+            <h3>Engenharia de Software</h3>
+            <p>Habilidade e experiência de trabalho com agilidade, requisitos, gestão de projetos e pessoas.</p>
           </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">Random Quotes</h3>
-              <p class="portfolio__project__category"> #free code camp</p>
+          <div class="one-third column">
+            <h3>DevSecOps</h3>
+            <p>Desenvolvimento seguro com foco em automatização e mentalidade.</p>
+          </div>
+          <div class="one-third column">
+            <h3>Desenvolvedora</h3>
+            <p>Atuação como front-end usando react/redux. Back-end usando java e ruby. Arquitetura de microsserviços e por eventos.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="eight columns">
+            <div class="progressBar">
+              <h4>HTML</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-90"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>CSS</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-80"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>Javascript</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-30"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>React</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-70"></div>
+              </div>
             </div>
           </div>
-        </a>
+          <div class="four columns">
+            <br/><p>Experiências com tecnologias java, ruby on rails, storybook e outros.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/calc.svg" alt="javascript calculator">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
-              <p class="portfolio__project__category"> #free code camp</p>
-            </div>
-          </div>
-        </a>
-      </div>
 
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/txt.svg" alt="text editor">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">Text Editor</h3>
-              <p class="portfolio__project__category">#personal project</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
-          <div class="portfolio__project__preview">
-            <img src="img/bacteriophage.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Bacteriophage</h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/desktop.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Desktop </h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/laptop.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Laptop </h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-  </section>
 
   <section id="portfolio" class="container main-section">
     <div class="filters row js-dis">
