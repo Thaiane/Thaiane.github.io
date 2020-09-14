@@ -165,7 +165,7 @@ body {
 }
 
 .header__nav {
-  line-height: .9em;
+  line-height: 1.1em;
   letter-spacing: 0.05rem;
 }
 
@@ -351,6 +351,7 @@ body {
 #comunidade,
 #experiencia {
   padding-top: 8.5em;
+  min-height: 100vh;
 }
 
 
