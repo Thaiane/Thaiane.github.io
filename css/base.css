@@ -444,11 +444,14 @@ body {
 #portfolio > .filters {
   text-align: right;
   padding: 0 20px;
+  color: #988AB5;
+  font-weight: bold;
 }
 
 .filters__title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  color: #988AB5;
 }
 
 .filters__title,
@@ -459,7 +462,7 @@ body {
 
 .filters__label,
 .filters__label:not(:first-child)::before {
-  color: #dcd5b2;
+  color: #988AB5;
 }
 
 .filters__label {
