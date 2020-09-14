@@ -363,16 +363,16 @@ body {
 }
 
 .contentCat {
-  max-width: 80%;
+  max-width: 82%;
   margin: auto;
-  margin-left: 10%
+  margin-left: 18%
 
 }
 
 #about .wrapper {
-  max-width: 80%;
+  max-width: 82%;
   margin: auto;
-  margin-right: 10%
+  margin-right: 18%
 }
 @media (min-width: 768px) {
   #about .wrapper {
@@ -395,6 +395,17 @@ body {
   color: #988AB5;
   font-family: 'Raleway', sans-serif;
   /*text-transform: uppercase;*/
+}
+
+.about__intro a {
+  color: #988AB5;
+  text-decoration: none !important;
+  background: none !important;
+  outline: none;
+}
+
+.about__intro a:hover {
+  color: inherit;
 }
 
 #about:hover .global-button.rotated::before {
