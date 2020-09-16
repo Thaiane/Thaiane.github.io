@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/styleCat.css">
   <link rel="stylesheet" type="text/css" href="css/skills.css">
+  <link rel="stylesheet" type="text/css" href="css/experience.css">
 </head>
 
 <body>
@@ -122,7 +123,7 @@
             </div>
           </div>
           <div class="four columns">
-            <h3>Práticas</h3>
+            <h3>Back-end</h3>
             <p>Experiências com tecnologias java, ruby on rails, storybook e outros.</p>
           </div>
         </div>
@@ -319,106 +320,89 @@
   </section>
 
   <section id="experiencia" class="container main-section">
-    <div class="filters row js-dis">
-      <h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
-      <ul class="filters__list">
-        <li class="filters__label is-active"> all </li>
-        <li class="filters__label" data-cat="fcc"> free code camp </li>
-        <li class="filters__label" data-cat="personal"> personal projects </li>
-      </ul>
+
+    <!-- THE CHALLENGE: -->
+    <!-- 1. recreate version 3 (https://codepen.io/cjl750/pen/mXbMyo) with no javascript whatsoever
+         2. make code as abstract as possible (e.g., trying to calc positions that would work with any number of dots instead of hard-coding the container width as we do in our media queries)
+         3. highest browser support possible -->
+    <!-- Bonus points: turn v3's pseudo content into actual element content, so it's accessible to screen readers, search engines, etc. -->
+
+    <h1>Notable inventions, <span>1910–2000</span></h1>
+    <div class="flex-parent">
+      <div class="input-flex-container">
+        <input type="radio" name="timeline-dot" data-description="1910">
+        <div class="dot-info" data-description="1910">
+          <span class="year">1910</span>
+          <span class="label">headset</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1920">
+        <div class="dot-info" data-description="1920">
+          <span class="year">1920</span>
+          <span class="label">jungle gym</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1930" checked>
+        <div class="dot-info" data-description="1930">
+          <span class="year">1930</span>
+          <span class="label">chocolate chip cookie</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1940">
+        <div class="dot-info" data-description="1940">
+          <span class="year">1940</span>
+          <span class="label">Jeep</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1950">
+        <div class="dot-info" data-description="1950">
+          <span class="year">1950</span>
+          <span class="label">leaf blower</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1960">
+        <div class="dot-info" data-description="1960">
+          <span class="year">1960</span>
+          <span class="label">magnetic stripe card</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1970">
+        <div class="dot-info" data-description="1970">
+          <span class="year">1970</span>
+          <span class="label">wireless LAN</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1980">
+        <div class="dot-info" data-description="1980">
+          <span class="year">1980</span>
+          <span class="label">flash memory</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="1990">
+        <div class="dot-info" data-description="1990">
+          <span class="year">1990</span>
+          <span class="label">World Wide Web</span>
+        </div>
+        <input type="radio" name="timeline-dot" data-description="2000">
+        <div class="dot-info" data-description="2000">
+          <span class="year">2000</span>
+          <span class="label">Google AdWords</span>
+        </div>
+        <div id="timeline-descriptions-wrapper">
+          <p data-description="1910">And future Call of Duty players would thank them.</p>
+          <p data-description="1920">Because every kid should get to be Tarzan for a day.</p>
+          <p data-description="1930">And the world rejoiced.</p>
+          <p data-description="1940">Because building roads is inconvenient.</p>
+          <p data-description="1950">Ain’t nobody got time to rake.</p>
+          <p data-description="1960">Because paper currency is for noobs.</p>
+          <p data-description="1970">Nobody likes cords. Nobody.</p>
+          <p data-description="1980">Brighter than glow memory.</p>
+          <p data-description="1990">To capitalize on an as-yet nascent market for cat photos.</p>
+          <p data-description="2000">Because organic search rankings take work.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="portfolio__project-wrapper row">
 
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
-        <a href="http://codepen.io/eevu/full/BoGMJm/" target="_blank" title="view live">
-          <div class="portfolio__project__preview">
-            <img src="img/quotes.svg" alt="random quotes">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">Random Quotes</h3>
-              <p class="portfolio__project__category"> #free code camp</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/calc.svg" alt="javascript calculator">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">JavaScript Calculator</h3>
-              <p class="portfolio__project__category"> #free code camp</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/txt.svg" alt="text editor">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name">Text Editor</h3>
-              <p class="portfolio__project__category">#personal project</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="https://en.wikipedia.org/wiki/Bacteriophage" target="_blank" title="what's a becteriophage?">
-          <div class="portfolio__project__preview">
-            <img src="img/bacteriophage.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Bacteriophage</h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/desktop.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Desktop </h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
-        <a href="#" target="_blank" title="coming soon">
-          <div class="portfolio__project__preview">
-            <img src="img/laptop.svg" alt="random placeholder">
-          </div>
-          <div class="portfolio__project__description">
-            <div class="info-wrapper">
-              <h3 class="portfolio__project__name"> Laptop </h3>
-              <p class="portfolio__project__category">#placeholder</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
+    <div style="position: absolute; bottom: 15px; right: 10px; font-size: 12px">
+      <a href="https://codepen.io/cjl750/pen/mXbMyo" target="_blank">based off of version 3</a></div>
   </section>
 
   <section id="contact" class="container main-section">
+
+<!--     Adicionar foto e sobre mim-->
     <div class="col-xs-12 col-md-5 contact-form-wrapper">
       <h2 class="heading"> drop me a line </h2>
       <form class="contact-form">
