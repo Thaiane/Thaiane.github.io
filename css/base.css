@@ -549,91 +549,6 @@ footer {
   padding-bottom: 2em;
 }
 
-.contact-form-wrapper {
-  padding: 0 11%;
-  z-index: 9;
-}
-
-.contact-form {
-  padding-bottom: 1em;
-}
-
-@media (max-width: 991px) {
-  footer.container {
-    width: 100%;
-  }
-}
-
-@media (max-width: 520px) {
-  .contact-form-wrapper {
-    padding: 0 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  #contact {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .contact-form {
-    padding-right: 1.5em;
-  }
-
-  .contact-form-wrapper {
-    padding: 0;
-  }
-}
-
-.contact-form-el {
-  position: relative;
-}
-
-.contact-form-el > .input {
-  display: block;
-  width: 100%;
-  margin-bottom: 1.3em;
-  border-bottom: 2px solid;
-}
-
-.contact-form-el > textarea {
-  resize: both;
-  min-width: 100%;
-  min-height: 10em;
-  height: 10em;
-  background: #fff;	/* for usability on resize */
-}
-
-.contact-form-el > label {
-  font-size: 0.8em;
-  position: absolute;
-  top: .3em; left: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #dcd5b2;
-  pointer-events: none;
-  transition: all 300ms linear;
-}
-
-.contact-form-el > .input:focus + label,
-.contact-form-el > .input:valid + label {
-  transform: translateY(-1.7em);
-  transform-origin: bottom left;
-}
-.contact-form-el > .input:focus + label,
-.contact-form-el > .input:focus:valid + label {
-  /*color: #51e6a6;*/
-  color: #988AB5;
-}
-.contact-form-el > .input:valid + label {
-  color: #dcd5b2;
-}
-
-.contact-form .global-button:hover::before {
-  animation: move_arrow_h 1500ms ease-in infinite forwards;
-}
-
 @keyframes move_arrow_h {
   0% {
     transform: translateX(0px);
@@ -652,18 +567,6 @@ footer {
   }
   100% {
     transform: translateX(0px);
-  }
-}
-
-
-#map {
-  padding: 0;
-  background-color: #f7fbde;
-  height: 20em;
-}
-@media (min-width: 768px) {
-  #map {
-    height: 25em;
   }
 }
 
