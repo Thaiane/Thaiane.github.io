@@ -127,7 +127,7 @@
 ********************************************************************* */
 #skills {
   padding: 100px 0 100px 0;
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
 }
 .progressBar {
   margin-bottom: 26px;
@@ -148,10 +148,10 @@
 .progressBarValue {
   height: 8px;
   float: left;
-  background: #e55d87; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-  background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  background: #988AB5; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #C391C1 0%, #988AB5 100%);
+  background: -webkit-linear-gradient(-45deg, #C391C1 0%, #988AB5 100%);
+  background: linear-gradient(135deg, #C391C1 0%, #988AB5 100%);
 }
 .value-00 {
   width: 0;
