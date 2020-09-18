@@ -1,8 +1,8 @@
 .experiencia {
 
   font-weight: 500;
-  color: #424949;
-  background-color: #F5F5F5;
+  /*color: #37e3e3;*/
+  /*background-color: #F5F5F5;*/
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .experiencia h1 {
-  text-align: center;
+  /*text-align: center;*/
   height: 38px;
   margin: 60px 0;
 }
@@ -43,7 +43,7 @@
 input {
   width: 25px;
   height: 25px;
-  background-color: #2C3E50;
+  background-color: #988AB5;
   position: relative;
   border-radius: 50%;
   display: block;
@@ -62,7 +62,7 @@ input::before, input::after {
   z-index: -1;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #2C3E50;
+  background-color: #988AB5;
   width: 4vw;
   height: 5px;
   max-width: 1000px/20;
@@ -74,10 +74,10 @@ input::after {
   right: calc(-4vw + 25px/2);
 }
 input:checked {
-  background-color: #2C3E50;
+  background-color: #988AB5;
 }
 input:checked::before {
-  background-color: #2C3E50;
+  background-color: #988AB5;
 }
 input:checked::after {
   background-color: #AEB6BF;
@@ -115,6 +115,7 @@ input:checked + .dot-info span {
   transform: rotateZ(-45deg);
   width: 70px;
   text-indent: -10px;
+  color: #988AB5;
 }
 
 #timeline-descriptions-wrapper {
@@ -218,7 +219,7 @@ input[data-description="2000"]:checked ~ #timeline-descriptions-wrapper p[data-d
     content: none;
   }
   input:checked + .dot-info {
-    background-color: #2C3E50;
+    background-color: #988AB5;
   }
   input:checked + .dot-info span.year {
     font-size: 14px;
