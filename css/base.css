@@ -81,23 +81,12 @@ a.global-button,
 .global-button,
 .heading {
   text-transform: capitalize;
-  /*color: #494E6B;*/
-  /*color: #51e6a6;*/
-  /*color: #3995B9;*/
   color: #988AB5;
 
 }
 
-.heading {
-  margin: 0;
-  margin-bottom: 2em;
-}
-
-.header__social-btns > li > a:hover,
 .filters__label:hover {
-  /*color: #51e6a6;*/
-  /*color: #3995B9;*/
-  color: #988AB5;
+  color: #b3b0c7;
 }
 
 .header__social-btns > li > a,
@@ -188,7 +177,6 @@ body {
 }
 
 .header__nav__item > a:hover {
-  /*color: #51e6a6;*/
   color: #988AB5;
 }
 
@@ -325,23 +313,6 @@ body {
   }
 }
 
-/* Social Links */
-
-.header__social-btns {
-  text-align: right;
-  font-size: 1.25em;
-}
-
-.header__social-btns > li {
-  display: inline-block;
-}
-
-.header__social-btns > li > a {
-  position: relative;
-  padding: 5px;
-}
-
-
 /* --- Sections --- */
 
 #about,
@@ -351,7 +322,7 @@ body {
 #comunidade,
 #experiencia {
   padding-top: 8.5em;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
 }
 
 
