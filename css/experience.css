@@ -9,7 +9,7 @@
 .decoration {
   width: 300px;
   height: 100px;
-  background: linear-gradient(135deg, #988AB5, #0b91d4);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
   border-radius: 70px;
   position: absolute;
   transform: rotate(-30deg);
@@ -62,7 +62,7 @@
   position: absolute;
   left: 35px;
   z-index: -1;
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
   border: none;
 }
 .myName {
@@ -105,7 +105,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .btn:hover {
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
   border: 1px solid #ddd;
   color: #fff;
 }
@@ -171,7 +171,7 @@
 .footerCircle {
   width: 140px;
   height: 140px;
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
   position: absolute;
   border-radius: 50%;
   top: 30px;
@@ -197,37 +197,37 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #82d5ff;
+  background-color: #D79ADD;
 }
 .decorationLine:nth-of-type(1) {
-  width: 35%;
+  width: 30%;
   top: -20px;
   left: 20px;
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
 }
 .decorationCircle:nth-of-type(2) {
   top: 0px;
-  left: 40%;
+  left: 33%;
 }
 .decorationLine:nth-of-type(3) {
-  width: 50%;
-  left: 36%;
+  width: 33%;
+  left: 32%;
   top: 0px;
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
 }
 .decorationCircle:nth-of-type(4) {
   top: 20px;
-  left: 89%;
+  left: 66%;
 }
 .decorationLine:nth-of-type(5) {
-  width: 25%;
-  left: 69%;
+  width: 37%;
+  left: 65%;
   top: 20px;
-  background: linear-gradient(135deg, #988AB5, #82d5ff);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
 }
 .decorationCircle:nth-of-type(6) {
   top: 40px;
-  left: 97%;
+  left: 103%;
 }
 .listExperience {
   display: flex;
@@ -241,7 +241,7 @@
   font-size: 13px;
   line-height: 20px;
   margin-top: 10px;
-  padding-left: 15px;
+  padding-left: 12px;
   border-left: 3px solid #dfdfff;
   /*   background-color: pink; */
 }

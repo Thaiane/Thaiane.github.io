@@ -149,9 +149,9 @@
   height: 8px;
   float: left;
   background: #988AB5; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #C391C1 0%, #988AB5 100%);
-  background: -webkit-linear-gradient(-45deg, #C391C1 0%, #988AB5 100%);
-  background: linear-gradient(135deg, #C391C1 0%, #988AB5 100%);
+  background: -moz-linear-gradient(-45deg, #988AB5 0%, #b38cc4 100%);
+  background: -webkit-linear-gradient(-45deg, #988AB5 0%, #b38cc4 100%);
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
 }
 .value-00 {
   width: 0;
