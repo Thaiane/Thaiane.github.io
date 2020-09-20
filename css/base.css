@@ -516,8 +516,10 @@ body {
 
 
 /*** Contact Section - Footer ***/
-footer {
+.footer {
   padding-bottom: 2em;
+  color: whitesmoke;
+  background-image: linear-gradient(to right, #988ab5, #988ab5, #988ab5, #988ab5, #988ab5, #9b8ab7, #9f8bba, #a28bbc, #aa8cc0, #b38cc4, #bc8dc7, #c58dca);
 }
 
 @keyframes move_arrow_h {
