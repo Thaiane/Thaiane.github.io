@@ -1,0 +1,9 @@
+.contact {
+  display: grid;
+  border: solid 2px red;
+}
+
+.thai-ilustration {
+  width: 100%;
+  max-width: 300px;
+}
