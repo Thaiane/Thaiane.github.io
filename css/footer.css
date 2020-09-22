@@ -1,9 +1,13 @@
 .contact {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   border: solid 2px red;
+  align-items: flex-end;
 }
 
 .thai-ilustration {
+  display: block;
+  max-width: 360px;
   width: 100%;
-  max-width: 300px;
 }
