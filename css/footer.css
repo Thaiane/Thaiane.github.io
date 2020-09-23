@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: end;
   border: solid 2px red;
-
+  padding-top: 2em !important;
 }
 
 .img-thai{
@@ -14,6 +14,16 @@
 .contact-thai {
   grid-column: 2;
 }
+
+.contact-thai-msg h3{
+  font-size: 1rem;
+  color: red;
+}
+
 .thai-ilustration {
-  max-width: 160px;
+  max-width: 300px;
+}
+
+.contact-thai-redes {
+  display: inline-block;
 }
