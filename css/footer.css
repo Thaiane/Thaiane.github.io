@@ -25,5 +25,8 @@
 }
 
 .contact-thai-redes {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
