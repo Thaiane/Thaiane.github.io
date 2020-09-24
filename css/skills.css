@@ -1,9 +1,6 @@
-/* Grid
-********************************************************************* */
 .containerSkills {
   position: relative;
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -14,7 +11,6 @@
   box-sizing: border-box;
 }
 
-/* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
     width: 85%;
