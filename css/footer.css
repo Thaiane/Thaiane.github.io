@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 4em;
+  min-height: 60vh;
 }
 
 .img-thai{
