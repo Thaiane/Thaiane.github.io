@@ -3,8 +3,7 @@
   grid-template-columns: 1fr 2fr;
   justify-content: space-around;
   align-items: center;
-  /*border: solid 2px red;*/
-  padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 .img-thai{
@@ -42,9 +41,4 @@
 
 .btn:hover {
   color: #b38cc4;
-}
-
-.footer-row {
-  text-align: center;
-  padding-top: 1rem;
 }
