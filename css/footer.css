@@ -31,13 +31,16 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-size: 2.5rem;
   padding-top: 4rem;
   color: #988AB5;
 }
 
-.contact-thai-redes a:hover {
-  background: #ef92a3;
+.btn-default {
+  font-size: 2.5rem;
+}
+
+.btn:hover {
+  color: #b38cc4;
 }
 
 .footer-row {
