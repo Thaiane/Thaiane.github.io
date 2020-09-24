@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-around;
-  align-items: end;
-  border: solid 2px red;
-  padding-top: 2em !important;
+  align-items: center;
+  /*border: solid 2px red;*/
+  padding-bottom: 4em;
 }
 
 .img-thai{
@@ -15,9 +15,11 @@
   grid-column: 2;
 }
 
-.contact-thai-msg h3{
-  font-size: 1rem;
-  color: red;
+.contact-thai-msg p{
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.1rem;
 }
 
 .thai-ilustration {
@@ -29,4 +31,16 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-size: 2.5rem;
+  padding-top: 4rem;
+  color: #988AB5;
+}
+
+.contact-thai-redes a:hover {
+  background: #ef92a3;
+}
+
+.footer-row {
+  text-align: center;
+  padding-top: 1rem;
 }
