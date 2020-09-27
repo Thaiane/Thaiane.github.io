@@ -348,7 +348,7 @@ body {
 }
 @media (min-width: 768px) {
   #about .wrapper {
-    margin-right: 24%;
+    margin-right: 23%;
   }
 }
 
@@ -358,12 +358,13 @@ body {
   margin-bottom: 1em;
   max-width: 30em;
   font-size: 1.1rem;
+  padding-bottom: 0.2em;
+  letter-spacing: 0.05rem;
 }
 
 .about__intro span {
   font-weight: bold;
   font-size: 1.2rem;
-  letter-spacing: 0.1rem;
   color: #988AB5;
   font-family: 'Raleway', sans-serif;
   /*text-transform: uppercase;*/
@@ -371,7 +372,7 @@ body {
 
 .about__intro a {
   color: #988AB5;
-  text-decoration: none !important;
+  text-decoration: underline !important;
   background: none !important;
   outline: none;
 }
@@ -542,19 +543,4 @@ body {
   100% {
     transform: translateX(0px);
   }
-}
-
-footer > #credit {
-  font-size: 0.8em;
-  margin-top: 4em;
-  text-align: center;
-}
-
-.credit-link, .credit-link:hover {
-  text-decoration: underline !important;
-}
-
-.credit-link:hover {
-  /*color: #51e6a6;*/
-  color: #988AB5;
 }
