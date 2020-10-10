@@ -125,6 +125,14 @@
   padding: 100px 0 100px 0;
   /*background-color: #F5F5F5;*/
 }
+
+.containerSkills-label{
+  background-color: #8a80b0;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  color: white;
+}
 .progressBar {
   margin-bottom: 26px;
   margin-bottom: 1.66em;
