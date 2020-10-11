@@ -83,6 +83,17 @@
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
+
+.card__title:active {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.card__title:visited {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
 .card__overlay {
   content: "";
   bottom: 0;
