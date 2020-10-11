@@ -5,30 +5,12 @@
   margin: 0;
   padding: 0;
 }
-/*html {*/
-/*  font-size: 100%;*/
-/*}*/
-/*body {*/
-/*  font-size: 1em;*/
-/*  font-family: "Lato";*/
-/*  font-weight: 400;*/
-/*  line-height: 1.5;*/
-/*  word-wrap: break-word;*/
-/*  -webkit-hyphens: auto;*/
-/*  -moz-hyphens: auto;*/
-/*  hyphens: auto;*/
-/*}*/
-img {
+
+.comunidade img {
   height: auto;
   max-width: 100%;
 }
-a {
-  color: #29b6f6;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+
 .site__wrapper {
   max-width: 1000px;
   margin-left: auto;
