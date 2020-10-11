@@ -514,7 +514,16 @@ body {
   transform: translateY(-2.5em);
 }
 
-
+#cafe-virtual {
+  font-size: 1em;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
 
 /*** Contact Section - Footer ***/
 .footer {
