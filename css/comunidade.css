@@ -12,10 +12,11 @@
 }
 
 .img-comunidade-quedrado {
-
+  width: max-content;
 }
 
 .img-comunidade-retangulo {
+  width: max-content;
 
 }
 
