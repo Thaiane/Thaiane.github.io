@@ -10,6 +10,12 @@
 /*  background: #f1f1f1;*/
 /*  margin: 2rem;*/
 /*}*/
+
+.card-events{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
