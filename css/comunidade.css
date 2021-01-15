@@ -107,11 +107,11 @@
   z-index: 1;
 }
 .card__overlay--indigo {
-  background-image: linear-gradient(to bottom, rgba(92, 107, 192, 0.1), rgba(92, 107, 192, 0.8));
+  background-image: linear-gradient(to bottom, rgb(67, 140, 200, 0.3), rgb(4, 53, 105));
   z-index: 2;
 }
 .card__overlay--blue {
-  background-image: linear-gradient(to bottom, rgba(41, 182, 246, 0.1), rgba(41, 182, 246, 0.8));
+  background-image: linear-gradient(to bottom, rgb(72, 39, 119, 0.3), rgb(54, 29, 95, 0.9));
   z-index: 2;
 }
 .card__overlay-content {
