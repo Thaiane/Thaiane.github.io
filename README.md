@@ -19,18 +19,6 @@
 
 ### 🏠 [Homepage](https://github.com/Thaiane/personal-website#readme)
 
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm run start
-```
-
 ## Author
 
 👤 **Thaiane Braga**
